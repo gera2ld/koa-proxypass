@@ -1,0 +1,30 @@
+{
+  "name": "koa-proxypass",
+  "version": "0.0.0",
+  "description": "A proxy-pass server for koa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gera2ld/koa-proxypass.git"
+  },
+  "keywords": [
+    "koa",
+    "proxy",
+    "proxypass"
+  ],
+  "author": "Gerald <i@gerald.top>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gera2ld/koa-proxypass/issues"
+  },
+  "homepage": "https://github.com/gera2ld/koa-proxypass#readme",
+  "devDependencies": {
+    "koa": "^1.1.2"
+  },
+  "dependencies": {
+    "http-proxy": "^1.13.1"
+  }
+}
