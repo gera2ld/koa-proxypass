@@ -1,6 +1,6 @@
 {
   "name": "koa-proxypass",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A proxy-pass server for koa",
   "main": "index.js",
   "scripts": {
