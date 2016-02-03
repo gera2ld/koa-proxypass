@@ -1,6 +1,10 @@
 koa-proxypass
 ===
 
+![NPM](https://img.shields.io/npm/v/koa-proxypass.svg)
+![License](https://img.shields.io/npm/l/koa-proxypass.svg)
+![Downloads](https://img.shields.io/npm/dt/koa-proxypass.svg)
+
 A proxy-pass server for koa.
 
 Installation
