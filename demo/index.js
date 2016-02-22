@@ -14,8 +14,10 @@ app.use(proxy({
       },
       target: 'https://www.baidu.com',
       path: '',
+      changeOrigin: true,
     }, {
       target: 'http://gerald.top',
+      changeOrigin: true,
     }],
   }]
 }))

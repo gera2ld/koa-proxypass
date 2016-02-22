@@ -62,3 +62,7 @@ There is one parameter `options` for `proxy`. `options` has attributes below:
   * `path`: String | Function
 
     If provided, the matched path will be replaced with it.
+
+  * `changeOrigin`: Boolean
+
+    Whether `host` should be updated to the target upstream, passed to [http-proxy](https://github.com/nodejitsu/node-http-proxy).
