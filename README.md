@@ -66,3 +66,7 @@ There is one parameter `options` for `proxy`. `options` has attributes below:
   * `changeOrigin`: Boolean
 
     Whether `host` should be updated to the target upstream, passed to [http-proxy](https://github.com/nodejitsu/node-http-proxy).
+
+  * `secure`: Boolean
+
+    Whether SSL certificate should be verified for upstream.
